@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "75D187CA-8C5C-44B1-B330-3E499D8E8AB2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EB2FE75-5A70-4BC5-9088-18C9031C6912"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Brighton Murals/MuralTVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "MuralTVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6EB2FE75-5A70-4BC5-9088-18C9031C6912 - 8c776e6f97a4967c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brighton_Murals.MuralTVC.myMap.getter : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "Brighton Murals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kvn/Documents/ComputerScience/Brighton%20Murals/Brighton%20Murals/MuralTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "6EB2FE75-5A70-4BC5-9088-18C9031C6912 - 13017af4513651f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brighton_Murals.MuralTVC.myMap.setter : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "Brighton Murals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kvn/Documents/ComputerScience/Brighton%20Murals/Brighton%20Murals/MuralTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "6EB2FE75-5A70-4BC5-9088-18C9031C6912 - 4b71545f07c5d503"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brighton_Murals.MuralTVC.myMap.modify : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "Brighton Murals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kvn/Documents/ComputerScience/Brighton%20Murals/Brighton%20Murals/MuralTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "6EB2FE75-5A70-4BC5-9088-18C9031C6912 - ad8467874b6f7c58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brighton_Murals.MuralTVC.myMap.modify : Swift.Optional&lt;__C.MKMapView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Brighton Murals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kvn/Documents/ComputerScience/Brighton%20Murals/Brighton%20Murals/MuralTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "6EB2FE75-5A70-4BC5-9088-18C9031C6912 - 2be714d649628675"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brighton_Murals.MuralTVC.init(style: __C.UITableViewStyle) -&gt; Brighton_Murals.MuralTVC"
+                  moduleName = "Brighton Murals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kvn/Documents/ComputerScience/Brighton%20Murals/Brighton%20Murals/MuralTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "6EB2FE75-5A70-4BC5-9088-18C9031C6912 - 1d2ad98d825d9b7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brighton_Murals.MuralTVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Brighton_Murals.MuralTVC"
+                  moduleName = "Brighton Murals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kvn/Documents/ComputerScience/Brighton%20Murals/Brighton%20Murals/MuralTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "6EB2FE75-5A70-4BC5-9088-18C9031C6912 - 45cefd704c3d19bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Brighton_Murals.MuralTVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Brighton_Murals.MuralTVC&gt;"
+                  moduleName = "Brighton Murals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kvn/Documents/ComputerScience/Brighton%20Murals/Brighton%20Murals/MuralTVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

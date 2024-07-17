@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C55D267293E3F150047E4D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C55D266293E3F150047E4D4 /* AppDelegate.swift */; };
+		9C55D269293E3F150047E4D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C55D268293E3F150047E4D4 /* SceneDelegate.swift */; };
+		9C55D26B293E3F150047E4D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C55D26A293E3F150047E4D4 /* ViewController.swift */; };
+		9C55D26E293E3F150047E4D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C55D26C293E3F150047E4D4 /* Main.storyboard */; };
+		9C55D271293E3F150047E4D4 /* Brighton_Murals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C55D26F293E3F150047E4D4 /* Brighton_Murals.xcdatamodeld */; };
+		9C55D273293E3F180047E4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C55D272293E3F180047E4D4 /* Assets.xcassets */; };
+		9C55D276293E3F180047E4D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C55D274293E3F180047E4D4 /* LaunchScreen.storyboard */; };
+		9C55D27E293E43230047E4D4 /* dataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C55D27D293E43230047E4D4 /* dataModel.swift */; };
+		9C55D280293E4CA00047E4D4 /* MuralTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C55D27F293E4CA00047E4D4 /* MuralTVC.swift */; };
+		9C55D28529477D010047E4D4 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C55D28429477D010047E4D4 /* CustomTableViewCell.swift */; };
+		9C55D28B2947B3330047E4D4 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9C55D28A2947B3330047E4D4 /* Base.lproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C55D263293E3F150047E4D4 /* Brighton Murals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brighton Murals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C55D266293E3F150047E4D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C55D268293E3F150047E4D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C55D26A293E3F150047E4D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C55D26D293E3F150047E4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C55D270293E3F150047E4D4 /* Brighton_Murals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Brighton_Murals.xcdatamodel; sourceTree = "<group>"; };
+		9C55D272293E3F180047E4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C55D275293E3F180047E4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C55D277293E3F180047E4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C55D27D293E43230047E4D4 /* dataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataModel.swift; sourceTree = "<group>"; };
+		9C55D27F293E4CA00047E4D4 /* MuralTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuralTVC.swift; sourceTree = "<group>"; };
+		9C55D281293FB5740047E4D4 /* NewBrightonMuralsWalk.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = NewBrightonMuralsWalk.gpx; path = ../../../Downloads/NewBrightonMuralsWalk.gpx; sourceTree = "<group>"; };
+		9C55D28429477D010047E4D4 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		9C55D28A2947B3330047E4D4 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		9C55D28C2947D71B0047E4D4 /* Favourites+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favourites+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9C55D28D2947D71B0047E4D4 /* Favourites+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favourites+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C55D260293E3F150047E4D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C55D25A293E3F150047E4D4 = {
+			isa = PBXGroup;
+			children = (
+				9C55D28C2947D71B0047E4D4 /* Favourites+CoreDataClass.swift */,
+				9C55D28D2947D71B0047E4D4 /* Favourites+CoreDataProperties.swift */,
+				9C55D281293FB5740047E4D4 /* NewBrightonMuralsWalk.gpx */,
+				9C55D265293E3F150047E4D4 /* Brighton Murals */,
+				9C55D264293E3F150047E4D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C55D264293E3F150047E4D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C55D263293E3F150047E4D4 /* Brighton Murals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C55D265293E3F150047E4D4 /* Brighton Murals */ = {
+			isa = PBXGroup;
+			children = (
+				9C55D266293E3F150047E4D4 /* AppDelegate.swift */,
+				9C55D27D293E43230047E4D4 /* dataModel.swift */,
+				9C55D268293E3F150047E4D4 /* SceneDelegate.swift */,
+				9C55D26A293E3F150047E4D4 /* ViewController.swift */,
+				9C55D27F293E4CA00047E4D4 /* MuralTVC.swift */,
+				9C55D28429477D010047E4D4 /* CustomTableViewCell.swift */,
+				9C55D26C293E3F150047E4D4 /* Main.storyboard */,
+				9C55D272293E3F180047E4D4 /* Assets.xcassets */,
+				9C55D28A2947B3330047E4D4 /* Base.lproj */,
+				9C55D274293E3F180047E4D4 /* LaunchScreen.storyboard */,
+				9C55D277293E3F180047E4D4 /* Info.plist */,
+				9C55D26F293E3F150047E4D4 /* Brighton_Murals.xcdatamodeld */,
+			);
+			path = "Brighton Murals";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C55D262293E3F150047E4D4 /* Brighton Murals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C55D27A293E3F180047E4D4 /* Build configuration list for PBXNativeTarget "Brighton Murals" */;
+			buildPhases = (
+				9C55D25F293E3F150047E4D4 /* Sources */,
+				9C55D260293E3F150047E4D4 /* Frameworks */,
+				9C55D261293E3F150047E4D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brighton Murals";
+			productName = "Brighton Murals";
+			productReference = 9C55D263293E3F150047E4D4 /* Brighton Murals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C55D25B293E3F150047E4D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					9C55D262293E3F150047E4D4 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9C55D25E293E3F150047E4D4 /* Build configuration list for PBXProject "Brighton Murals" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C55D25A293E3F150047E4D4;
+			productRefGroup = 9C55D264293E3F150047E4D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C55D262293E3F150047E4D4 /* Brighton Murals */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C55D261293E3F150047E4D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C55D276293E3F180047E4D4 /* LaunchScreen.storyboard in Resources */,
+				9C55D273293E3F180047E4D4 /* Assets.xcassets in Resources */,
+				9C55D28B2947B3330047E4D4 /* Base.lproj in Resources */,
+				9C55D26E293E3F150047E4D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C55D25F293E3F150047E4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C55D271293E3F150047E4D4 /* Brighton_Murals.xcdatamodeld in Sources */,
+				9C55D26B293E3F150047E4D4 /* ViewController.swift in Sources */,
+				9C55D267293E3F150047E4D4 /* AppDelegate.swift in Sources */,
+				9C55D28529477D010047E4D4 /* CustomTableViewCell.swift in Sources */,
+				9C55D280293E4CA00047E4D4 /* MuralTVC.swift in Sources */,
+				9C55D27E293E43230047E4D4 /* dataModel.swift in Sources */,
+				9C55D269293E3F150047E4D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C55D26C293E3F150047E4D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C55D26D293E3F150047E4D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C55D274293E3F180047E4D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C55D275293E3F180047E4D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C55D278293E3F180047E4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C55D279293E3F180047E4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C55D27B293E3F180047E4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Brighton Murals/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kv.Brighton-Murals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C55D27C293E3F180047E4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Brighton Murals/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kv.Brighton-Murals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C55D25E293E3F150047E4D4 /* Build configuration list for PBXProject "Brighton Murals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C55D278293E3F180047E4D4 /* Debug */,
+				9C55D279293E3F180047E4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C55D27A293E3F180047E4D4 /* Build configuration list for PBXNativeTarget "Brighton Murals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C55D27B293E3F180047E4D4 /* Debug */,
+				9C55D27C293E3F180047E4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9C55D26F293E3F150047E4D4 /* Brighton_Murals.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9C55D270293E3F150047E4D4 /* Brighton_Murals.xcdatamodel */,
+			);
+			currentVersion = 9C55D270293E3F150047E4D4 /* Brighton_Murals.xcdatamodel */;
+			path = Brighton_Murals.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9C55D25B293E3F150047E4D4 /* Project object */;
+}
